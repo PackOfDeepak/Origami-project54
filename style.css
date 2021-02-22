@@ -1,0 +1,54 @@
+body {
+    background-color: springgreen;
+}
+#about {
+    position: absolute;
+    padding:30px;
+    top:20px;
+    left: 380px;
+
+}
+#follow {
+    position: absolute;
+    top:20px;
+    padding:30px;
+    left: 500px;
+
+}
+#header {
+    background-color: steelblue;
+    padding:30px;
+}
+img {
+    height: 100px;
+    
+}
+a:link{
+    color:white
+}
+a:visited{
+    color:white
+}
+.grid img {
+    border:2px solid #000000;
+    border-radius:50px;
+
+}
+.grid {
+    display:flex;
+
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid p {
+    border-radius:20px;
+    background-color: #ffffff;
+    padding:30px;
+    margin: 25px;
+    width:310px;
+    font-family:cursive;
+}
+.grid:hover {
+    transform: scale(1.2);
+}
